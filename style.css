@@ -1,5 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
+	text-decoration: none;
 }
 
 .header {
@@ -28,18 +29,75 @@ body {
 	color: black
 }
 
-.main {
+.projects-menu {
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.projects-title{
+	padding-left: 10%;
+}
+
+.projects-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+
+.projects-item {
+	overflow: hidden;
+	object-fit: contain;
+	position: relative;
+}
+
+.projects-item img {
+	width: 100%;
+	filter: brightness(100%);
+	transition: 1s;
+}
+
+.projects-item-name {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.projects-item-name a {
+	color: transparent;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.projects-item:hover .projects-item-name a {
+	color: white;
+
+}
+
+.projects-item:hover img {
+	filter: brightness(10%)
+}
+
+.social-menu {
 	display: grid;
 	grid-template-columns: auto;
 	justify-items: center;
 }
+
+
+.social-title{
+	justify-self: start;
+	padding-left: 10%;
+}
+
 
 .contact {
 	display: grid;
 	grid-template-columns: 40px 40px 40px;
 	grid-column-gap: 40px
 }
-
 
 
 .social-icon img{
