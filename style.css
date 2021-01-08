@@ -2,6 +2,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	padding-bottom: 50px;
+	margin: 0px;
 }
 
 .header {
@@ -70,6 +71,7 @@ body {
 	color: transparent;
 	text-decoration: none;
 	transition: 1s;
+	font-size: 80%;
 }
 
 .projects-item:hover .projects-item-name a {
