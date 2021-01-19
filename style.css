@@ -31,6 +31,10 @@ body {
 	color: black
 }
 
+.header-current a {
+	border-bottom: 1px solid black;
+}
+
 .projects-menu {
 	display: grid;
 	grid-template-columns: auto;
@@ -79,6 +83,10 @@ body {
 
 }
 
+.projects-item-name:hover a {
+	text-decoration: underline
+}
+
 .projects-item:hover img {
 	filter: brightness(10%)
 }
@@ -106,4 +114,15 @@ body {
 .social-icon img{
 	height: 100%;
 	width: auto;
+}
+
+.project-page-content {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.project-page-body {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 0.5fr;
 }
