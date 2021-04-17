@@ -1,11 +1,25 @@
-body {
-}
-
 .container {
-    padding: 50px 50px 0px 50px;
+    /* padding: 50px clamp(10px, 5%, 50px) 25px clamp(10px, 5%, 50px); */
+    padding: 50px 5% 25px 5%;
 }
 
 h1 {
     text-align: center;
 }
 
+i {
+    font-size: 40px;
+}
+
+.alt-background {
+    background-color: rgb(248, 248, 248);
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon i {
+    color: black;
+    font-size: 70px;
+}
